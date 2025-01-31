@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1042834218331",
+    "project_id": "bank-sat-bcfe7",
+    "storage_bucket": "bank-sat-bcfe7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042834218331:android:dfd2f1eef19f241c588e7e",
+        "android_client_info": {
+          "package_name": "com.example.bank_sat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK__YyF2N9P8Itp_LsABvcZyemJg0Kfpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+plugins {
+    id "com.android.application"
+    id 'com.google.gms.google-services'  // Plugin Firebase
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.example.bank_sat"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.example.bank_sat"
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+        minSdkVersion 23 
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug  // Konfigurasi untuk build release
+        }
+    }
+}
+
+dependencies {
+    // Firebase dependencies
+    implementation 'com.google.firebase:firebase-auth:21.1.0' // Firebase Authentication
+    implementation 'com.google.firebase:firebase-core:21.0.0'  // Firebase Core
+    implementation 'com.google.firebase:firebase-firestore:24.0.0' // Firebase Firestore (jika diperlukan)
+
+    // Dependency lainnya
+    implementation 'com.android.support:appcompat-v7:28.0.0' // Contoh dependensi lainnya
+}
+
+flutter {
+    source = "../.."
+}
+
+// Apply the Google services plugin (untuk mengonfigurasi Firebase)
+apply plugin: 'com.google.gms.google-services'
