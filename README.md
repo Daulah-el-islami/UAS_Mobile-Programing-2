@@ -16,6 +16,9 @@ Bank Sat adalah aplikasi keuangan digital inovatif yang dirancang untuk membantu
 
 Aplikasi ini tidak hanya dirancang untuk memenuhi kebutuhan transaksi keuangan dasar, tetapi juga untuk memberikan pengalaman yang mulus dan menyenangkan dalam mengatur keuangan. Bank Sat mengutamakan keamanan, kenyamanan, dan fleksibilitas, sehingga pengguna dapat merasa tenang ketika melakukan berbagai transaksi finansial di dalam aplikasi.
 
+## Demo Aplikasi
+https://github.com/user-attachments/assets/0c887d7c-e9f6-4507-83ef-843fbafeef28
+
 ## Screenshot Aplikasi
 
 Bank Sat memiliki User Interface yang minimalis dan User-friendly
